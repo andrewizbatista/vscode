@@ -1,0 +1,43 @@
+{
+  "Snippet: Function": {
+    "prefix": "____snippet::function____",
+    "body": [
+      "/**",
+      " * ${1:func}()",
+      " */",
+      "export function ${1:func}({ param }: ${2:Func}Params): string {",
+      "  return param;",
+      "}",
+      "",
+      "/**",
+      " * ${2:Func}Params",
+      " */",
+      "export interface ${2:Func}Params {",
+      "  readonly param: string;",
+      "}",
+      ""
+    ]
+  },
+  "Snippet: Test": {
+    "prefix": "____snippet::test____",
+    "body": [
+      "import { test, expect } from '@playwright/test';",
+      "import { ${1:func} } from '.';",
+      "",
+      "/**",
+      " * Test: ${1:func}()",
+      " */",
+      "test.describe('${1:func}()', () => {",
+      "  /**",
+      "   * Test 1",
+      "   */",
+      "  test('should DO SOMETHING COOL', () => {",
+      "    const result = ${1:func}({ text: '10z' });",
+      "",
+      "    expect(result).toEqual('10z');",
+      "  });",
+      "});",
+      ""
+    ]
+  }
+}

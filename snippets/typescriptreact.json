@@ -1,0 +1,26 @@
+{
+  "Snippet: Component": {
+    "prefix": "____snippet::component____",
+    "body": [
+      "import { memo } from 'react';",
+      "",
+      "/**",
+      " * ${1:Component}",
+      " */",
+      "export const ${1:Component} = memo(",
+      "  //",
+      "  function ${1:Component}({ children }: ${1:Component}Props) {",
+      "    return <div>{children}</div>;",
+      "  }",
+      ");",
+      "",
+      "/**",
+      " * ${1:Component}Props",
+      " */",
+      "export interface ${1:Component}Props {",
+      "  readonly children: JSX.Element[] | JSX.Element;",
+      "}",
+      ""
+    ]
+  }
+}

@@ -1,2 +1,3 @@
-# .vscode
-VS Code configuration from @andrewizbatista
+# 🔧 VS Code Preferences
+
+My (@andrewizbatista) most up-to-date VS Code preferences.

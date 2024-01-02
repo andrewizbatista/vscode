@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "Gruntfuggly.todo-tree",
+    "Tyriar.sort-lines",
+    "bierner.markdown-preview-github-styles",
+    "biomejs.biome",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "file-icons.file-icons",
+    "mikestead.dotenv",
+    "ms-playwright.playwright",
+    "ms-vscode-remote.remote-wsl",
+    "naumovs.color-highlight",
+    "pomdtr.excalidraw-editor",
+    "redhat.vscode-yaml",
+    "richie5um2.vscode-sort-json",
+    "sainnhe.gruvbox-material",
+    "svipas.control-snippets",
+    "william-voyek.vscode-nginx",
+    "wix.vscode-import-cost",
+    "yoavbls.pretty-ts-errors",
+    "yzhang.markdown-all-in-one"
+  ]
+}

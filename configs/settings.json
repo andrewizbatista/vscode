@@ -5,7 +5,7 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports.biome": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.detectIndentation": false,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
@@ -17,26 +17,34 @@
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.semanticHighlighting.enabled": false,
-  "editor.snippetSuggestions": "inline",
-  "editor.suggest.showSnippets": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.showSnippets": false,
+  "editor.suggest.showWords": false,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "emmet.showExpandedAbbreviation": "never",
-  "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact"
+  ],
   "explorer.autoReveal": false,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.decorations.badges": true,
   "files.associations": {
     ".commitlintrc": "json",
+    ".env": "dotenv",
     ".env.*": "dotenv",
     ".huskyrc": "json",
     ".lintstagedrc": "json",
     ".releaserc": "json",
-    ".stylelintrc": "json"
+    ".stylelintrc": "json",
+    "*.css": "tailwindcss"
   },
   "files.defaultLanguage": "typescriptreact",
   "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "gruvboxMaterial.darkContrast": "medium",
@@ -44,20 +52,24 @@
   "gruvboxMaterial.highContrast": true,
   "gruvboxMaterial.italicComments": false,
   "gruvboxMaterial.italicKeywords": false,
-  "javascript.suggest.autoImports": false,
+  "javascript.preferences.importModuleSpecifier": "project-relative",
+  "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "remote.autoForwardPortsSource": "hybrid",
+  "search.exclude": {
+    "**/node_modules": true
+  },
   "terminal.integrated.fontFamily": "Cascadia Code",
   "terminal.integrated.fontSize": 14,
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.suggest.autoImports": false,
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "window.zoomLevel": 0.5,
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Beyond the Horizon",
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editor.wrapTabs": true,
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "bearded-icons",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none"
 }
